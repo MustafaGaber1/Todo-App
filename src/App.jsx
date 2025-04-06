@@ -2,6 +2,7 @@ import { useEffect, useState } from "react";
 import "./styles.css";
 import NewTodoForm from "./NewTodoForm";
 import TodoList from "./TodoList";
+
 const App = () => {
   const [todos, setTodos] = useState(() => {
     const localValue = localStorage.getItem("ITEMS");
